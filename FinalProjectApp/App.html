@@ -1,0 +1,33 @@
+<h2>Overview</h2>
+<p>The next project is a word prediction Shiny app. The app is the final project of the Data Science Capstone Course in Coursera.
+The objective is an application that predicts words using a natural language.
+We will need to input a text and the application will looked it up in the training corpus data and the most common word in its list of following words will be suggested similar to 
+the technology of Swiftkey implemented on the smart phones.</p> 
+
+<h3>Instructions</h3>
+<p> The app has 2 section. The first one is the <strong>instruction and review criteria for the final project submission</strong> tab. 
+The second one is the <strong>word prediction model visualization</strong> there you can input a word or a simple phrase and you will receive the possible next word to complete the phrase.</p>
+
+<h3>Instruction and review criteria</h3>
+<p>This section is going to show you the instruction and the review criteria about the final project submission. You can use it as a guide to evaluate my app.</p>
+<p>The submission consist in three parts:</p>
+<ol>
+<li>Repository project files where you can find the code used for the application</li>
+<li>Slide deck presentation which describe the algorithm used to build the model</li>
+<li>The final application which is a word predictor application</li>
+</ol>
+
+<h3>Word Prediction APP</h3>
+<p>The prediction model uses a tidy data applied to text mining in R. To building the model algorithm we considered the next steps:</p>  
+<ol>
+<li>The training data comes from three types sources <b>Twitter</b>, <b>Blogs</b> and <b>News</b> files</li> 
+<li>Cleaning and removing the non-alphanumeric's, url's and repeated letters</li> 
+<li>Data separation in N grams (the model consider 2, 3, 4, 5 and 6 ngrams dataframes)</li>
+<li>Finally, selecting the most probably word to predict the next word of a phrase.</li> 
+</ol>
+
+<p>The user will have to write a word or a phrase in the input panel and then press the submit button to receive the next word.<p/>
+<p><b>Additional note</b>: due to the large dataset, we use a 5% of the original data to train the model so there is a possibility that the user will need to enter another phrase if the application does not find a word.</p> 
+
+  
+
